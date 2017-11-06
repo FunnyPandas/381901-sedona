@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Sedona hotels</title>
+    <base href="https://htmlacademy-htmlcss.github.io/381901-sedona/2/">
+</head>
+  <body>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo" href="index.html">
+          <img src="img/logo.svg" width="111" height="24" alt="Логотип «Sedona»">
+        </a>
+        <ul class="site-navigation">
+          <li><a href="info.html">Информация</a></li>
+          <li><a href="foto.html">Фото и видео</a></li>
+          <li><a href="map.html">Карта штата</a></li>
+           <li class="site-navigation-current"><a href="hotels.html">Гостиницы</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <div class="top-background">
+        </div>
+        <section  class:="infrastructure">
+          <h3>Инфраструктура:</h3>
+            <ul>
+              <li>
+                <input type="checkbox" name="pool" id="pool-field" checked>
+                <label for="pool-field">Бассейн</label>
+              </li>
+              <li>
+                <input type="checkbox" name="Parking" id="Parking-field">
+                <label for="Parking-field">Парковка</label>
+              </li>
+              <li>
+                <input type="checkbox" name="Wi-Fi" id="Wi-Fi-field">
+                <label for="Wi-Fi-field">Wi-Fi</label>
+              </li>
+            </ul>
+        </section> 
+        <section class="type-housing">
+          <h3>Тип жилья:</h3>
+            <ul>
+              <li>
+                <input type="checkbox" name="Hotel" id="Hotel-field" checked>
+                <label for="Hotel-field">Гостиница</label>
+              </li>
+              <li>
+                <input type="checkbox" name="Motel" id="Motel-field" checked>
+                <label for="Motel-field">Мотель</label>
+              </li>
+              <li>
+                <input type="checkbox" name="Apartments" id="Apartments-field" checked>
+                <label for="Apartments-field">Апартаменты</label>
+              </li>
+            </ul>
+        </section> 
+        <section class="prise">
+          <h3>Стоимость в сутки:</h3>
+          <form action="https://echo.htmlacademy.ru" method="get">
+            <input id="price-min" type="text" value="от 0" name="price-min"> 
+            <input id="price-max" type="text" value="до 3000" name="price-max">
+            <div class="slider-1"> </div>
+            <div class="slider-2"> </div>
+            <input type="submit" value="Показать">    
+          </form>
+        </section>
+        <b>Найдено:</b>
+        <span>3</span>
+        <p>Сортировка:</p>
+        <a href="#">По цене</a>
+        <a href="#">По типу</a>
+        <a href="#">По рейтингу</a>
+        <a href="#">min-max</a>
+        <a href="#">max-min</a>
+        <ul class="hotels-list">
+          <li>  
+            <img width="100" height="100" src="Amara.jpg" alt="Amara Resort & Spa">
+            <h3>Amara Resort & Spa</h3>
+            <p>Гостиница</p>
+            <span>От 4000 р.</span>
+            <a href="#">Подробнее</a>
+            <a href="#">Забронировать</a>
+            <p>Рейтинг: 8,5</p>  
+          </li>
+          <li>  
+            <img width="100" height="100" src="Desert.jpg" alt="Desert Quail Inn">
+            <h3>Desert Quail Inn</h3>
+            <p>Мотель</p>
+            <span>От 3000 р.</span>
+            <a href="#">Подробнее</a>
+            <a href="#">Забронировать</a>
+            <p>Рейтинг: 8,9</p>  
+          </li>  
+          <li>  
+            <img width="100" height="100" src="Villas.jpg" alt="Villas at Poco Diablo">
+            <h3>Villas at Poco Diablo</h3>
+            <p>Апартаменты</p>
+            <span>От 2000 р.</span>
+            <a href="#">Подробнее</a>
+            <a href="#">Забронировать</a>
+            <p>Рейтинг: 9,2</p>  
+          </li>  
+        </ul>
+    </main>
+    <footer class="main-footer">
+      <a href="#">#VISITSEDONA</a>
+      <div class="footer-social">
+        <ul>
+          <li><a class="social-button button-vk" href="#">Вконтакте</a></li>
+          <li><a class="social-button button-fb" href="#">Фейсбук</a></li>
+          <li><a class="social-button button-youtube" href="#">you tube</a></li>
+        </ul>
+      </div>
+      <p class="footer-copyright">
+        <b>Website by</b> <a href="https://htmlacademy.ru/intensive/htmlcss">Логотип «HTML Academy»</a>
+      </p>
+    </footer>
+  </body>
+</html>

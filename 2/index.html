@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Sedona city</title>
+    <base href="https://htmlacademy-htmlcss.github.io/381901-sedona/2/">
+</head>
+  <body>
+    <div class="container">  
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo" href="#">
+          <img src="img/logo.svg" width="111" height="24" alt="Логотип «Sedona»">
+        </a>
+        <ul class="site-navigation">
+          <li><a href="info.html">Информация</a></li>
+          <li><a href="foto.html">Фото и видео</a></li>
+          <li><a href="map.html">Карта штата</a></li>
+          <li><a href="hotels.html">Гостиницы</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="welcome-block">
+        <div class="background-image">Фоновое изображение</div>          
+            <div class="welcome-image">изображение Welcome Sedona </div>    
+            <h2 class="description">Седона - небольшой городок в Аризоне, заслуживающий большего!</h2> 
+            <p class="reasons">Рассмотрим 5 причин, по которым Седона круче, чем Гранд каньон!</p>
+      </section>
+      <section class="features-1">
+          <div class="sub-features">
+            <h3>Настоящий городок</h3> 
+            <span>- №1 -</span>
+            <p>Седона - не атракцион для туристов. там течет своя жизнь</p>
+          </div>
+          <img width="200" height="100" src="picture.jpg"  alt="sedona city">
+      </section>
+      <section class="features-info">
+        <ul>
+          <li>
+            <h4>Жилье</h4>
+            <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+          </li>
+          <li>
+            <h4>Еда</h4>
+            <p>Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
+          </li>
+          <li>
+            <h4>Сувениры</h4>
+            <p>Не только китайского, но и местного производства!</p>
+          </li>
+        </ul>
+      </section>
+      <section class="features-2">
+          <img width="200" height="100" src="picture2.jpg" alt="devil's Bridge">
+          <div class="sub-features">
+              <h3>ТАМ ЕСТЬ  Мост дьявола</h3>
+              <span>— №2 —</span>
+              <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+          </div>
+      </section>
+      <section class="features-3">
+        <ul>
+          <li class="sub-features">
+            <h3>НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
+            <span>— №3 —</span>
+            <p>ВСЕ достопримечательности находятся очень близко</p>
+          </li>
+          <li class="sub-features">
+            <h3>КРАСИВАЯ ДОРОГА</h3>
+            <span>— №4 —</span>
+            <p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</p>
+          </li>
+          <li class="sub-features">
+            <h3>МАЛО ТУРИСТОВ</h3>
+            <span>— №5 —</span>
+            <p>Большинство едет в гранд каньон и толпится там</p>
+           </li>
+        </ul>
+      </section>
+      <section>  
+        <b>ЗАИНТЕРЕСОВАЛИСЬ?</b>  
+        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <button>Поиск гостиницы в Седоне</button>
+      </section>
+        
+      <div>map</div>
+        
+    </main>
+    <footer class="main-footer">
+      <a href="#">#VISITSEDONA</a>
+      <div class="footer-social">
+        <ul>
+          <li><a class="social-button button-vk" href="#">Вконтакте</a></li>
+          <li><a class="social-button button-fb" href="#">Фейсбук</a></li>
+          <li><a class="social-button button-youtube" href="#">you tube</a></li>
+        </ul>
+      </div>
+      <p class="footer-copyright">
+        <b>Website by</b> <a href="https://htmlacademy.ru/intensive/htmlcss">Логотип «HTML Academy»</a>
+      </p>
+    </footer>
+  </div>
+    <form action="https://echo.htmlacademy.ru" class="search-form" method="get">
+        <label>Дата заезда<input type="text" name="arrival-date" id="arrival-date"></label> 
+        <label>Дата выезда<input type="text" name="departure-date" id="departure-date"></label>
+        <label>Взрослые<input type="text" name="adults-amt" id="adults-amt" value="2"></label>
+        <label>Дети<input type="text" name="children-amt" id="children-amt" value="0"></label>
+      <input type="submit" value="Найти">    
+    </form>
+  </body>
+</html>
